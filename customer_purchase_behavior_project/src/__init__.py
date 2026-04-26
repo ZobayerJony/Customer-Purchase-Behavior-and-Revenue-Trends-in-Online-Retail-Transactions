@@ -1,0 +1,1 @@
+"""Source package for the online retail data analysis project."""
