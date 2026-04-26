@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local OS/editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Raw and processed data can be regenerated
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Keep generated outputs if you want to show them in GitHub.
+# Do not ignore outputs/ or report/ because the instructor may want to see figures and final report.
