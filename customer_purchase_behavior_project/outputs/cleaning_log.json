@@ -1,0 +1,36 @@
+{
+    "original_rows": 541909,
+    "rows_after_duplicate_removal": 536641,
+    "duplicate_rows_removed": 5268,
+    "rows_with_invalid_invoice_date": 0,
+    "cancelled_or_return_rows_identified": 11763,
+    "rows_removed_from_sales_analysis": 17031,
+    "analysis_ready_rows": 524878,
+    "missing_customer_id_rows_in_sales_data": 132186,
+    "cleaning_justification": [
+        {
+            "step": "Standardized column names",
+            "reason": "Lowercase snake_case names are easier and safer to use in Python code."
+        },
+        {
+            "step": "Converted data types",
+            "reason": "Dates and numeric fields must have correct types before time-series and revenue calculations."
+        },
+        {
+            "step": "Removed exact duplicate rows",
+            "reason": "Duplicates can overstate sales revenue and transaction counts."
+        },
+        {
+            "step": "Separated cancelled/returned transactions",
+            "reason": "The project focuses on positive completed sales, so cancellations and returns are excluded from the main analysis."
+        },
+        {
+            "step": "Kept only positive quantities and prices",
+            "reason": "Revenue trend analysis requires valid sales values."
+        },
+        {
+            "step": "Cleaned product descriptions",
+            "reason": "Consistent product names improve product-level grouping and charts."
+        }
+    ]
+}

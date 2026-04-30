@@ -1,0 +1,3 @@
+relationship,correlation,interpretation
+Distinct products in invoice vs invoice total,0.26526327076326633,Positive values mean invoices with more distinct products usually have higher value.
+Total units in invoice vs invoice total,0.8826868212088865,Positive values mean invoices with more units usually have higher value.

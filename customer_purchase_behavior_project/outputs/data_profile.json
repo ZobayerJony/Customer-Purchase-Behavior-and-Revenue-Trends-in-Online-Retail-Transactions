@@ -1,0 +1,15 @@
+{
+    "rows": 541909,
+    "columns": 8,
+    "column_names": [
+        "InvoiceNo",
+        "StockCode",
+        "Description",
+        "Quantity",
+        "InvoiceDate",
+        "UnitPrice",
+        "CustomerID",
+        "Country"
+    ],
+    "duplicate_rows": 5268
+}
